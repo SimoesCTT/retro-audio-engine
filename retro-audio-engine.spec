@@ -35,7 +35,7 @@ Requires:       %{name}%{?_isa} = %{version}-%{release}
 Contains internal test binaries and verification tools for %{name}.
 
 %prep
-%autosetup -n retro-audio-workspace -a1
+%autosetup -c -n %{name}-%{version} -a1
 %cargo_prep -v vendor
 
 %build

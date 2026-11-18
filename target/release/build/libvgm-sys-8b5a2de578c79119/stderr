@@ -1,0 +1,11 @@
+Cloning into '/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm'...
+running: cd "/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build" && CMAKE_PREFIX_PATH="" LC_ALL="C" "cmake" "/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm" "-B" "/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build" "-DCMAKE_INSTALL_PREFIX=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w" "-DCMAKE_C_COMPILER=/usr/lib64/ccache/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w" "-DCMAKE_CXX_COMPILER=/usr/lib64/ccache/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w" "-DCMAKE_ASM_COMPILER=/usr/lib64/ccache/cc" "-DCMAKE_BUILD_TYPE=Release"
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_FLAGS
+
+
+running: cd "/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build" && LC_ALL="C" MAKEFLAGS="-j --jobserver-fds=3,5 --jobserver-auth=3,5" "cmake" "--build" "/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build" "--target" "install" "--config" "Release"
+clang diag: wrapper.h:1:9: warning: #pragma once in main file [-Wpragma-once-outside-header]

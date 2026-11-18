@@ -1,0 +1,12 @@
+[package]
+name = "libgme-sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bindgen = "0.72"
+
+[build-dependencies]
+bindgen = "0.72"
+pkg-config = "0.3"
+cmake = "0.1"

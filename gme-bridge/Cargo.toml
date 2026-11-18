@@ -1,0 +1,8 @@
+[package]
+name = "gme-bridge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libgme-rs = { path = "../libgme-rs" }
+cpal = "0.15"

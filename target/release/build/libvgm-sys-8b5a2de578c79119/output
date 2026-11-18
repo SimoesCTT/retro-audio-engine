@@ -1,0 +1,718 @@
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=wrapper.h
+CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-unknown-linux-gnu = None
+CMAKE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE = None
+CMAKE = None
+-- The C compiler identification is GNU 16.2.1
+-- The CXX compiler identification is GNU 16.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib64/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib64/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Found ZLIB: /usr/lib64/libz.so (found version "1.3.1")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test Iconv_IS_BUILT_IN
+-- Performing Test Iconv_IS_BUILT_IN - Success
+-- Found Iconv: /usr/lib64/libc.so
+-- Found ALSA: /usr/lib64/libasound.so (found version "1.2.16.1")
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build
+[  3%] Building C object utils/CMakeFiles/vgm-utils.dir/DataLoader.c.o
+[  3%] Building C object utils/CMakeFiles/vgm-utils.dir/FileLoader.c.o
+[  3%] Building C object utils/CMakeFiles/vgm-utils.dir/MemoryLoader.c.o
+[  4%] Building C object emu/CMakeFiles/vgm-emu.dir/SoundEmu.c.o
+[  5%] Building C object emu/CMakeFiles/vgm-emu.dir/Resampler.c.o
+[  6%] Building C object emu/CMakeFiles/vgm-emu.dir/logging.c.o
+[  7%] Building C object utils/CMakeFiles/vgm-utils.dir/OSMutex_POSIX.c.o
+[  8%] Building C object utils/CMakeFiles/vgm-utils.dir/OSSignal_POSIX.c.o
+[  9%] Building C object utils/CMakeFiles/vgm-utils.dir/OSThread_POSIX.c.o
+[  9%] Building C object emu/CMakeFiles/vgm-emu.dir/panning.c.o
+[ 10%] Building C object emu/CMakeFiles/vgm-emu.dir/dac_control.c.o
+[ 11%] Building C object utils/CMakeFiles/vgm-utils.dir/StrUtils-CPConv_IConv.c.o
+[ 12%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/sn764intf.c.o
+[ 13%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/sn76496.c.o
+[ 14%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/sn76489.c.o
+[ 15%] Linking C static library ../bin/libvgm-utils.a
+[ 16%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/2413intf.c.o
+[ 16%] Built target vgm-utils
+[ 17%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ym2413.c.o
+[ 18%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/emu2413.c.o
+[ 19%] Building C object audio/CMakeFiles/vgm-audio.dir/AudioStream.c.o
+[ 20%] Building C object audio/CMakeFiles/vgm-audio.dir/AudDrv_WaveWriter.c.o
+[ 21%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/nukedopll.c.o
+[ 22%] Building C object audio/CMakeFiles/vgm-audio.dir/AudDrv_ALSA.c.o
+[ 23%] Linking C static library ../bin/libvgm-audio.a
+[ 23%] Built target vgm-audio
+[ 24%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/2612intf.c.o
+[ 24%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/fmopn.c.o
+[ 25%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ym2612.c.o
+[ 26%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ym3438.c.o
+[ 27%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ym2151.c.o
+[ 28%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/2151intf.c.o
+[ 29%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/nukedopm.c.o
+[ 30%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/segapcm.c.o
+[ 31%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/rf5cintf.c.o
+[ 32%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/rf5c68.c.o
+[ 33%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/scd_pcm.c.o
+[ 33%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/opnintf.c.o
+[ 34%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ymdeltat.c.o
+[ 35%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/oplintf.c.o
+[ 36%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/fmopl.c.o
+[ 37%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/adlibemu_opl2.c.o
+[ 38%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/nukedopl3.c.o
+[ 39%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/262intf.c.o
+[ 40%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ymf262.c.o
+[ 41%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/adlibemu_opl3.c.o
+[ 42%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ymf278b.c.o
+[ 42%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ymz280b.c.o
+[ 43%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ymf271.c.o
+[ 44%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ayintf.c.o
+[ 45%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ay8910.c.o
+[ 46%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/emu2149.c.o
+[ 47%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/pwm.c.o
+[ 48%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/gbintf.c.o
+[ 49%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/gb_mame.c.o
+[ 50%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/sameboy_apu.c.o
+[ 51%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/nesintf.c.o
+[ 51%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/nes_apu.c.o
+[ 52%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/np_nes_apu.c.o
+[ 53%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/np_nes_dmc.c.o
+[ 54%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/np_nes_fds.c.o
+[ 55%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/multipcm.c.o
+[ 56%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/upd7759.c.o
+[ 57%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/okim6258.c.o
+[ 58%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/okim6295.c.o
+[ 59%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/okiadpcm.c.o
+[ 60%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/k051649.c.o
+[ 60%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/k054539.c.o
+[ 61%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/c6280intf.c.o
+[ 62%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/c6280_mame.c.o
+[ 63%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/Ootake_PSG.c.o
+[ 64%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/c140.c.o
+[ 65%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/c219.c.o
+[ 66%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/k053260.c.o
+[ 67%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/pokey.c.o
+[ 68%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/qsoundintf.c.o
+[ 69%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/qsound_mame.c.o
+[ 69%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/qsound_ctr.c.o
+[ 70%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/scsp.c.o
+[ 71%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/scspdsp.c.o
+[ 72%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ws_audio.c.o
+[ 73%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/vsu.c.o
+[ 74%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/saaintf.c.o
+[ 75%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/saa1099_mame.c.o
+[ 76%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/saa1099_vb.c.o
+[ 77%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/es5503.c.o
+[ 78%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/es5506.c.o
+[ 78%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/x1_010.c.o
+[ 79%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/c352.c.o
+[ 80%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/iremga20.c.o
+[ 81%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/mikey.c.o
+[ 82%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/k007232.c.o
+[ 83%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/k005289.c.o
+[ 84%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/msm5205.c.o
+[ 85%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/msm5232.c.o
+[ 86%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/bsmt2000.c.o
+[ 87%] Building C object emu/CMakeFiles/vgm-emu.dir/cores/ics2115.c.o
+[ 87%] Linking C static library ../bin/libvgm-emu.a
+[ 87%] Built target vgm-emu
+[ 88%] Building C object player/CMakeFiles/vgm-player.dir/dblk_compr.c.o
+[ 89%] Building C object player/CMakeFiles/vgm-player.dir/helper.c.o
+[ 90%] Building CXX object player/CMakeFiles/vgm-player.dir/playerbase.cpp.o
+[ 91%] Building CXX object player/CMakeFiles/vgm-player.dir/droplayer.cpp.o
+[ 92%] Building CXX object player/CMakeFiles/vgm-player.dir/gymplayer.cpp.o
+[ 93%] Building CXX object player/CMakeFiles/vgm-player.dir/s98player.cpp.o
+[ 94%] Building CXX object player/CMakeFiles/vgm-player.dir/vgmplayer_cmdhandler.cpp.o
+[ 95%] Building CXX object player/CMakeFiles/vgm-player.dir/vgmplayer.cpp.o
+[ 96%] Building CXX object player/CMakeFiles/vgm-player.dir/playera.cpp.o
+[ 96%] Linking CXX static library ../bin/libvgm-player.a
+[ 96%] Built target vgm-player
+[ 96%] Building CXX object CMakeFiles/player.dir/player.cpp.o
+[ 97%] Building CXX object CMakeFiles/vgm2wav.dir/vgm2wav.cpp.o
+[ 98%] Building C object CMakeFiles/player.dir/player/dblk_compr.c.o
+[ 99%] Linking CXX executable bin/vgm2wav
+[ 99%] Built target vgm2wav
+[100%] Linking CXX executable bin/player
+[100%] Built target player
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/bin/player
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/bin/vgm2wav
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/common_def.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/_stdbool.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/stdtype.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/cmake/libvgm/libvgmTargets.cmake
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/cmake/libvgm/libvgmTargets-release.cmake
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/cmake/libvgm/libvgmConfig.cmake
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/cmake/libvgm/libvgmConfigVersion.cmake
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/libvgm-utils.a
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/utils/DataLoader.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/utils/FileLoader.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/utils/MemoryLoader.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/utils/OSMutex.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/utils/OSSignal.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/utils/OSThread.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/utils/StrUtils.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/pkgconfig/vgm-utils.pc
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/libvgm-audio.a
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/audio/AudioStructs.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/audio/AudioStream.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/audio/AudioStream_SpcDrvFuns.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/pkgconfig/vgm-audio.pc
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/libvgm-emu.a
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/snddef.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/EmuStructs.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/SoundEmu.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/SoundDevs.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/EmuCores.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/Resampler.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/logging.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/dac_control.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/sn764intf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/2413intf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/2612intf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/ym2151.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/2151intf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/segapcm.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/rf5cintf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/opnintf.h
+-- Up-to-date: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/opnintf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/oplintf.h
+-- Up-to-date: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/oplintf.h
+-- Up-to-date: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/oplintf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/262intf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/ymf278b.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/ymz280b.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/ymf271.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/ayintf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/pwm.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/gbintf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/nesintf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/multipcm.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/upd7759.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/okim6258.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/okim6295.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/k051649.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/k054539.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/c6280intf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/c140.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/c219.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/k053260.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/pokey.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/qsoundintf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/scsp.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/ws_audio.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/vsu.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/saaintf.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/es5503.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/es5506.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/x1_010.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/c352.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/iremga20.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/mikey.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/k007232.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/k005289.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/msm5205.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/msm5232.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/bsmt2000.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/emu/cores/ics2115.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/pkgconfig/vgm-emu.pc
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/libvgm-player.a
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/player/dblk_compr.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/player/helper.h
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/player/playerbase.hpp
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/player/droplayer.hpp
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/player/gymplayer.hpp
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/player/s98player.hpp
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/player/vgmplayer.hpp
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/include/vgm/player/playera.hpp
+-- Installing: /home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64/pkgconfig/vgm-player.pc
+cargo:root=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out
+cargo:rustc-link-search=native=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out
+cargo:rustc-link-search=native=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/libs/iconv/lib
+cargo:rustc-link-search=native=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/libs/lib
+cargo:rustc-link-search=native=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build/bin
+cargo:rustc-link-search=native=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/lib64
+cargo:rustc-link-search=native=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out
+cargo:rustc-link-lib=static=vgm-utils
+cargo:rustc-link-lib=static=vgm-audio
+cargo:rustc-link-lib=static=vgm-emu
+cargo:rustc-link-lib=static=vgm-player
+cargo:rustc-link-lib=stdc++
+cargo:rustc-link-lib=z
+cargo:rustc-link-lib=static=iconv
+cargo:rerun-if-env-changed=TARGET
+cargo:rerun-if-env-changed=BINDGEN_EXTRA_CLANG_ARGS_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=BINDGEN_EXTRA_CLANG_ARGS_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=BINDGEN_EXTRA_CLANG_ARGS
+cargo:rerun-if-changed=wrapper.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/vgmplayer.hpp
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../stdtype.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/EmuStructs.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/../stdtype.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/snddef.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/../stdtype.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/Resampler.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/../stdtype.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/snddef.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/EmuStructs.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../utils/StrUtils.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../utils/../stdtype.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stddef.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_header_macro.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_ptrdiff_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_size_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_wchar_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_null.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_nullptr_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_max_align_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_offsetof.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/helper.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../stdtype.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/EmuStructs.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/Resampler.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/playerbase.hpp
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../stdtype.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/EmuStructs.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/Resampler.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../utils/DataLoader.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../utils/../stdtype.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/vector
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/requires_hosted.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/include/bits/wordsize.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/os_defines.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/features-time64.h
+cargo:rerun-if-changed=/usr/include/bits/wordsize.h
+cargo:rerun-if-changed=/usr/include/bits/timesize.h
+cargo:rerun-if-changed=/usr/include/bits/wordsize.h
+cargo:rerun-if-changed=/usr/include/stdc-predef.h
+cargo:rerun-if-changed=/usr/include/sys/cdefs.h
+cargo:rerun-if-changed=/usr/include/bits/wordsize.h
+cargo:rerun-if-changed=/usr/include/bits/long-double.h
+cargo:rerun-if-changed=/usr/include/gnu/stubs.h
+cargo:rerun-if-changed=/usr/include/gnu/stubs-64.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/pstl/pstl_config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_algobase.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/cpp_type_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/type_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/cpp_type_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/numeric_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/cpp_type_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/type_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_pair.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/utility.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator_base_types.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator_base_funcs.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/concept_check.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/debug/assertions.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator_base_types.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/cpp_type_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator_base_types.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/type_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/ptr_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/concept_check.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/debug/debug.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/debug/assertions.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/predefined_ops.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_function.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward/binders.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bit
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/concepts
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/numeric_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/allocator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++allocator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/new_allocator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/new
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/exception.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/new_except.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/exception_defines.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/exception.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/new_throw.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/exception_defines.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/memoryfwd.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_construct.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/new
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator_base_types.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator_base_funcs.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_uninitialized.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/ptr_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_pair.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_algobase.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/cpp_type_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator_base_funcs.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/alloc_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/alloc_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_construct.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/memoryfwd.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/ptr_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/numeric_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/allocator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_vector.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator_base_funcs.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stdexcept_throw.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/exception_defines.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stdexcept_throwfwd.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/exception_defines.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/concept_check.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/initializer_list
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/debug/assertions.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_bvector.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/initializer_list
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/functional_hash.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/hash_bytes.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/range_access.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/initializer_list
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/erase_if.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_algobase.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/vector.tcc
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/memory_resource.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/new
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/cstddef
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stddef.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_header_macro.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_ptrdiff_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_size_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_wchar_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_nullptr_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_max_align_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_offsetof.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/new_throw.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/uses_allocator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/uses_allocator_args.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/numeric_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/debug/assertions.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/utility.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/tuple
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_pair.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/uses_allocator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/utility.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/invoke.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/move.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/memoryfwd.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../utils/DataLoader.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/logging.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/../stdtype.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/../common_def.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/../stdtype.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/../_stdbool.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stdbool.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../emu/EmuStructs.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/dblk_compr.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../stdtype.h
+cargo:rerun-if-changed=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/libvgm/player/../common_def.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/vector
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/string
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/requires_hosted.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stringfwd.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/memoryfwd.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/char_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/postypes.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/cwchar
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/include/wchar.h
+cargo:rerun-if-changed=/usr/include/bits/libc-header-start.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/floatn.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/floatn-common.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/long-double.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stddef.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_size_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_wchar_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_null.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stdarg.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stdarg___gnuc_va_list.h
+cargo:rerun-if-changed=/usr/include/bits/wchar.h
+cargo:rerun-if-changed=/usr/include/bits/types/wint_t.h
+cargo:rerun-if-changed=/usr/include/bits/types/mbstate_t.h
+cargo:rerun-if-changed=/usr/include/bits/types/__mbstate_t.h
+cargo:rerun-if-changed=/usr/include/bits/types/__FILE.h
+cargo:rerun-if-changed=/usr/include/bits/types/FILE.h
+cargo:rerun-if-changed=/usr/include/bits/types/locale_t.h
+cargo:rerun-if-changed=/usr/include/bits/types/__locale_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/cwchar
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/allocator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/cpp_type_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/localefwd.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++locale.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/clocale
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/include/locale.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stddef.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_null.h
+cargo:rerun-if-changed=/usr/include/bits/locale.h
+cargo:rerun-if-changed=/usr/include/bits/types/locale_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/iosfwd
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/requires_hosted.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stringfwd.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/postypes.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/cctype
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/include/ctype.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/wordsize.h
+cargo:rerun-if-changed=/usr/include/bits/timesize.h
+cargo:rerun-if-changed=/usr/include/bits/wordsize.h
+cargo:rerun-if-changed=/usr/include/bits/typesizes.h
+cargo:rerun-if-changed=/usr/include/bits/time64.h
+cargo:rerun-if-changed=/usr/include/bits/endian.h
+cargo:rerun-if-changed=/usr/include/bits/endianness.h
+cargo:rerun-if-changed=/usr/include/bits/types/locale_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/ostream_insert.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/iosfwd
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/cxxabi_forced.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/exception_defines.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator_base_funcs.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_iterator.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_function.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/numeric_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stdexcept_throw.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/exception_defines.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stdexcept_throwfwd.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_algobase.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/range_access.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/erase_if.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/basic_string.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/alloc_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/debug/debug.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/initializer_list
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/string_view
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/char_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/functional_hash.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/range_access.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stl_algobase.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/numeric_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/iosfwd
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/ostream_insert.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/string_view.tcc
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/string_conversions.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/requires_hosted.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/numeric_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stdexcept_throw.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/exception_defines.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/stdexcept_throwfwd.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/cstdlib
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/include/stdlib.h
+cargo:rerun-if-changed=/usr/include/bits/libc-header-start.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stddef.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_size_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_wchar_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_null.h
+cargo:rerun-if-changed=/usr/include/bits/waitflags.h
+cargo:rerun-if-changed=/usr/include/bits/waitstatus.h
+cargo:rerun-if-changed=/usr/include/bits/floatn.h
+cargo:rerun-if-changed=/usr/include/bits/types/locale_t.h
+cargo:rerun-if-changed=/usr/include/sys/types.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/types/clock_t.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/types/clockid_t.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/types/time_t.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/types/timer_t.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stddef.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_size_t.h
+cargo:rerun-if-changed=/usr/include/bits/stdint-intn.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/endian.h
+cargo:rerun-if-changed=/usr/include/endian.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/endian.h
+cargo:rerun-if-changed=/usr/include/bits/byteswap.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/uintn-identity.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/sys/select.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/select.h
+cargo:rerun-if-changed=/usr/include/bits/types/sigset_t.h
+cargo:rerun-if-changed=/usr/include/bits/types/__sigset_t.h
+cargo:rerun-if-changed=/usr/include/bits/types/time_t.h
+cargo:rerun-if-changed=/usr/include/bits/types/struct_timeval.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/types/struct_timespec.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/endian.h
+cargo:rerun-if-changed=/usr/include/bits/types/time_t.h
+cargo:rerun-if-changed=/usr/include/bits/pthreadtypes.h
+cargo:rerun-if-changed=/usr/include/bits/thread-shared-types.h
+cargo:rerun-if-changed=/usr/include/bits/pthreadtypes-arch.h
+cargo:rerun-if-changed=/usr/include/bits/wordsize.h
+cargo:rerun-if-changed=/usr/include/bits/atomic_wide_counter.h
+cargo:rerun-if-changed=/usr/include/bits/struct_mutex.h
+cargo:rerun-if-changed=/usr/include/bits/struct_rwlock.h
+cargo:rerun-if-changed=/usr/include/alloca.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stddef.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_size_t.h
+cargo:rerun-if-changed=/usr/include/bits/stdlib-float.h
+cargo:rerun-if-changed=/usr/include/bits/floatn.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/std_abs.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/include/stdlib.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/cwchar
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/cstdio
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/include/stdio.h
+cargo:rerun-if-changed=/usr/include/bits/libc-header-start.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stddef.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_size_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stddef_null.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/stdarg.h
+cargo:rerun-if-changed=/usr/bin/../lib/clang/23/include/__stdarg___gnuc_va_list.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/types/__fpos_t.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/types/__mbstate_t.h
+cargo:rerun-if-changed=/usr/include/bits/types/__fpos64_t.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/types/__mbstate_t.h
+cargo:rerun-if-changed=/usr/include/bits/types/__FILE.h
+cargo:rerun-if-changed=/usr/include/bits/types/FILE.h
+cargo:rerun-if-changed=/usr/include/bits/types/struct_FILE.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/wordsize.h
+cargo:rerun-if-changed=/usr/include/bits/types/cookie_io_functions_t.h
+cargo:rerun-if-changed=/usr/include/bits/types.h
+cargo:rerun-if-changed=/usr/include/bits/stdio_lim.h
+cargo:rerun-if-changed=/usr/include/bits/floatn.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/cerrno
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/include/errno.h
+cargo:rerun-if-changed=/usr/include/features.h
+cargo:rerun-if-changed=/usr/include/bits/errno.h
+cargo:rerun-if-changed=/usr/include/linux/errno.h
+cargo:rerun-if-changed=/usr/include/asm/errno.h
+cargo:rerun-if-changed=/usr/include/asm-generic/errno.h
+cargo:rerun-if-changed=/usr/include/asm-generic/errno-base.h
+cargo:rerun-if-changed=/usr/include/bits/types/error_t.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/charconv.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/type_traits
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/ext/numeric_traits.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/functional_hash.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/basic_string.tcc
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/cxxabi_forced.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/version.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux/bits/c++config.h
+cargo:rerun-if-changed=/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/bits/memory_resource.h

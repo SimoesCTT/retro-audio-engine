@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libvgm-audio.a "CMakeFiles/vgm-audio.dir/AudioStream.c.o" "CMakeFiles/vgm-audio.dir/AudDrv_WaveWriter.c.o" "CMakeFiles/vgm-audio.dir/AudDrv_ALSA.c.o"
+/usr/bin/ranlib ../bin/libvgm-audio.a

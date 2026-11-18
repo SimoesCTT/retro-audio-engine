@@ -1,0 +1,13 @@
+prefix=/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include
+
+Name: LibVGM Audio
+Description: LibVGM audio output library
+Version: 0.1
+Requires: vgm-utils
+Requires.private: alsa
+Cflags: -I${includedir} -DAUDDRV_WAVEWRITE -DAUDDRV_ALSA
+Libs: -L${libdir} -lvgm-audio
+Libs.private: 

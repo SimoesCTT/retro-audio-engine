@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build/cmake_install.cmake",
+		"/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build/utils/cmake_install.cmake",
+		"/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build/audio/cmake_install.cmake",
+		"/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build/emu/cmake_install.cmake",
+		"/home/americosimoes/Desktop/retro-audio-workspace/target/release/build/libvgm-sys-8b5a2de578c79119/out/build/player/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

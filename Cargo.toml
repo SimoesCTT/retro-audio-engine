@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "libgme-sys",
+    "libgme-rs",
+    "libvgm-sys",
+    "libvgm-rs",
+    "gme-bridge"
+]
+resolver = "2"
